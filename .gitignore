@@ -1,3 +1,4 @@
 /plan/.terraform/
 /plan/*.tfstate
 /plan/*.tfstate.backup
+/plan/auth/
