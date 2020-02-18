@@ -10,6 +10,7 @@ terraform:
     node_name: "my-node-pool"
     preemptible: "false"
     machine_type: "n1-standard-1"
+    bucket: "terraform-production-a92f4741bc30659f7fd2da8359945e5f"
   testing:
     credentials: "./auth/serviceaccount.json"
     project: "inazrabuu-kube10"
@@ -21,3 +22,4 @@ terraform:
     node_name: "my-node-pool"
     preemptible: "true"
     machine_type: "f1-micro"
+    bucket: "terraform-testing-c8780c3621cd6eaad9b4e35ef874177d"

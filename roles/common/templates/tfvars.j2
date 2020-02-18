@@ -8,3 +8,4 @@ node_name = "{{ terraform['%s' | format(env)].node_name }}"
 node_count = {{ terraform['%s' | format(env)].node_count }} 
 preemptible = {{ terraform['%s' | format(env)].preemptible }} 
 machine_type = "{{ terraform['%s' | format(env)].machine_type }}"
+bucket = "{{ terraform['%s' | format(env)].bucket }}"

@@ -27,3 +27,6 @@ variable "preemptible" {
 
 variable "machine_type" {
 }
+
+variable "bucket" {
+}

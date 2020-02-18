@@ -1,10 +1,11 @@
 credentials = "./auth/serviceaccount.json"
 project = "inazrabuu-kube10"
 regions = "asia-southeast1"
-cluster_name = "testing-cluster"
+cluster_name = "production-cluster"
 network = "default"
 initial_node_count = 1 
 node_name = "my-node-pool"
-node_count = 2 
-preemptible = true 
-machine_type = "f1-micro"
+node_count = 3 
+preemptible = false 
+machine_type = "n1-standard-1"
+bucket = "terraform-production-a92f4741bc30659f7fd2da8359945e5f"
