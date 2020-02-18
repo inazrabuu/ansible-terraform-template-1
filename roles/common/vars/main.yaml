@@ -1,0 +1,23 @@
+terraform:
+  production:
+    credentials: "./auth/serviceaccount.json"
+    project: "inazrabuu-kube10"
+    regions: "asia-southeast1"
+    cluster_name: "production-cluster"
+    network: "default"
+    initial_node_count: 1
+    node_count: 3
+    node_name: "my-node-pool"
+    preemptible: "false"
+    machine_type: "n1-standard-1"
+  testing:
+    credentials: "./auth/serviceaccount.json"
+    project: "inazrabuu-kube10"
+    regions: "asia-southeast1"
+    cluster_name: "testing-cluster"
+    network: "default"
+    initial_node_count: 1
+    node_count: 2
+    node_name: "my-node-pool"
+    preemptible: "true"
+    machine_type: "f1-micro"

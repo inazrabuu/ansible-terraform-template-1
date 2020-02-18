@@ -1,0 +1,3 @@
+/plan/.terraform/
+/plan/*.tfstate
+/plan/*.tfstate.backup
